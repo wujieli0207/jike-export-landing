@@ -11,9 +11,9 @@ const Hero = () => {
       }}
     >
       <section className="py-28 overflow-hidden duration-300 ease-in bg-right bg-cover md:bg-[url('/bg.svg')]">
-        <div className="custom-screen items-center justify-center gap-12 text-gray-600 md:flex xl:justify-between">
+        <div className="custom-screen items-center justify-center gap-12 text-gray-800 md:flex xl:justify-between">
           <div className="flex-none space-y-5 max-w-2xl">
-            <h1 className="text-4xl text-center font-extrabold text-purple-800 sm:text-5xl xl:text-left">
+            <h1 className="text-4xl text-center font-extrabold sm:text-5xl xl:text-left">
               导出即刻动态为本地文件
             </h1>
             <section>
