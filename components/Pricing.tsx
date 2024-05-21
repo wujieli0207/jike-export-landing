@@ -36,7 +36,7 @@ const Pricing = () => {
             插件功能完整功能需付费激活，每个激活码支持 3 个设备
           </p>
         </div>
-        <div className="space-y-6 justify-center gap-6 sm:flex sm:space-y-0">
+        <div className="space-y-6 justify-center gap-6 md:flex sm:space-y-0">
           {plans.map((item, idx) => (
             <div
               key={idx}
@@ -44,7 +44,7 @@ const Pricing = () => {
                 item.isMostPop ? 'bg-gray-800 text-gray-300' : 'bg-white'
               }`}
             >
-              <div className="h-full p-8 gap-y-4 w-[24rem] flex flex-col items-stretch">
+              <div className="h-full p-8 gap-y-4 min-w-full sm:min-w-[24rem] flex flex-col items-stretch">
                 <span
                   className={`font-medium ${
                     item.isMostPop ? 'text-sky-400' : 'text-sky-500'
