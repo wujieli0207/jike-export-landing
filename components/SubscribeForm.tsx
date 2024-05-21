@@ -1,3 +1,11 @@
+import {
+  EMAIL,
+  GITHUB_HOME_URL,
+  GOOGLE_STORE_URL,
+  JIKE_HOME_URL,
+  LOCAL_DOWNLOAD_URL,
+  TWITTER_HOME_URL,
+} from '@/config/url'
 import Link from 'next/link'
 
 const SubscribeForm = () => {
@@ -6,7 +14,7 @@ const SubscribeForm = () => {
       <div className="flex w-full justify-center space-x-4 pb-0 xl:justify-start fade-in">
         <Link
           target="_blank"
-          href="https://chromewebstore.google.com/detail/%E5%8D%B3%E5%88%BB%E5%AF%BC%E5%87%BA/bknkpflbkcapjdbcbdoijnjdbkdabjli"
+          href={GOOGLE_STORE_URL}
           className="flex items-center px-5 py-2.5 w-52 text-white bg-gray-900 hover:bg-gray-800 rounded-md duration-150 active:shadow-lg"
         >
           <svg
@@ -43,7 +51,7 @@ const SubscribeForm = () => {
         </Link>
         <Link
           target="_blank"
-          href="https://jike-export.wujieli.com/public/jike-export-extension.crx"
+          href={LOCAL_DOWNLOAD_URL}
           className="flex items-center px-5 py-2.5 w-52 text-white bg-gray-900 hover:bg-gray-800 rounded-md duration-150 active:shadow-lg"
         >
           <svg
@@ -70,7 +78,7 @@ const SubscribeForm = () => {
         <a
           className="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"
           data-tippy-content="两万焦"
-          href="https://web.okjike.com/u/737645D8-42B5-4B4F-9687-DCA50D85DE1A"
+          href={JIKE_HOME_URL}
           target="_blank"
         >
           <svg
@@ -93,7 +101,7 @@ const SubscribeForm = () => {
         <a
           className="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"
           data-tippy-content="两万焦"
-          href="https://github.com/wujieli0207/jike-export-extension"
+          href={GITHUB_HOME_URL}
           target="_blank"
         >
           <svg
@@ -112,7 +120,7 @@ const SubscribeForm = () => {
         <a
           className="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"
           data-tippy-content="@li_wujie"
-          href="https://twitter.com/li_wujie"
+          href={TWITTER_HOME_URL}
           target="_blank"
         >
           <svg
@@ -126,7 +134,7 @@ const SubscribeForm = () => {
         <a
           className="inline-block text-blue-300 no-underline hover:text-indigo-800 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4"
           data-tippy-content="wujieli0207"
-          href="mailto:wujieli0207@outlook.com"
+          href={`mailto:${EMAIL}`}
           target="_blank"
         >
           <svg

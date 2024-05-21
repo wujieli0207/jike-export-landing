@@ -1,7 +1,6 @@
 import CTA from '@/components/CTA'
 import CenteredCTA from '@/components/CenteredCTA'
 import Footer from '@/components/Footer'
-import FooterCTA from '@/components/FooterCTA'
 import GradientWrapper from '@/components/GradientWrapper'
 import Hero from '@/components/Hero'
 import Pricing from '@/components/Pricing'
@@ -15,10 +14,9 @@ export default function Home() {
         <CenteredCTA />
         <Stats />
       </GradientWrapper>
-      <CTA />
+      <CTA />*/}
       <Pricing />
-      <FooterCTA />
-      <Footer /> */}
+      <Footer />
     </main>
   )
 }
