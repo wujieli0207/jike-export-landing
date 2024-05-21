@@ -36,7 +36,7 @@ const Pricing = () => {
             插件功能完整功能需付费激活，每个激活码支持 3 个设备
           </p>
         </div>
-        <div className="space-y-6 justify-center gap-6 md:flex sm:space-y-0">
+        <div className="space-y-6 justify-center gap-6 md:flex md:space-y-0">
           {plans.map((item, idx) => (
             <div
               key={idx}
