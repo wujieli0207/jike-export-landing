@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Brand from './ui/Brand'
+import NavLink from './ui/NavLink'
 
 const Navbar = () => (
   <header>
@@ -9,12 +10,15 @@ const Navbar = () => (
           <Brand />
         </Link>
       </div>
-      {/* <NavLink
-        href="#get-started"
-        className="font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 focus:bg-gray-900 ring-offset-2 ring-gray-800 focus:ring-2"
-      >
-        Get started
-      </NavLink> */}
+
+      <div>
+        <NavLink
+          href="/payment"
+          className="font-medium text-sm text-black  hover:bg-gray-100"
+        >
+          支付指南
+        </NavLink>
+      </div>
     </nav>
   </header>
 )

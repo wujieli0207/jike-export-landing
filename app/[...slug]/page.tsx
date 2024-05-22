@@ -3,6 +3,7 @@ import { allPages } from 'contentlayer/generated'
 import MdxContainer from '@/components/container/MdxContainer'
 import { Metadata } from 'next'
 import { siteName } from '@/config/site'
+import NavLink from '@/components/ui/NavLink'
 
 interface IProps {
   params: {
@@ -44,7 +45,16 @@ export default async function PostPage({ params }: IProps) {
   return (
     <div className="w-full flex justify-center">
       <article className="py-6 px-5 max-w-xl prose">
-        <h1>{page.title}</h1>
+        <div className="flex justify-between -mb-2">
+          <h1>{page.title}</h1>
+
+          <NavLink
+            href="/"
+            className="font-medium text-sm text-black hover:text-gray-500"
+          >
+            回到首页
+          </NavLink>
+        </div>
         {page.description && <p className="text-xl">{page.description}</p>}
         <hr />
 
