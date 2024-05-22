@@ -18,7 +18,7 @@ const Pricing = () => {
       name: '创始股东',
       desc: ['完整导出功能', '支持导出全部动态或收藏'],
       price: 1.99,
-      priceDesc: '(约 15 块钱)',
+      priceDesc: '(约 15 元)',
       isMostPop: true,
       url: '/payment',
       btnText: '成为创始股东',
