@@ -1,12 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import { siteConfig } from '@/config/site'
 import { Analytics } from '@vercel/analytics/react'
 import GoogleAnalytics from './GoogleAnalytics'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: siteConfig.name,
@@ -28,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh_CN">
-      <body className={inter.className}>
+      <body>
         <Navbar />
         {children}
 

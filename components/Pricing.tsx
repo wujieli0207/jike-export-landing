@@ -20,7 +20,7 @@ const Pricing = () => {
       price: 1.99,
       priceDesc: '(约 15 块钱)',
       isMostPop: true,
-      url: LEMONSQUEEZY_PAY_URL,
+      url: '/payment',
       btnText: '成为创始股东',
     },
   ]
@@ -67,7 +67,7 @@ const Pricing = () => {
                   <Link
                     href={item.url}
                     passHref
-                    target="_blank"
+                    target={item.url.includes('http') ? '_blank' : ''}
                     className="w-full"
                   >
                     <Button className="block w-full text-white bg-sky-500 hover:bg-sky-600 ring-offset-2 ring-sky-500 focus:ring shadow">

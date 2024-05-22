@@ -16,3 +16,6 @@ export const GITHUB_HOME_URL =
 export const TWITTER_HOME_URL = 'https://twitter.com/li_wujie'
 
 export const EMAIL = 'wujieli0207@outlook.com'
+
+export const WECHAT_QRCODE =
+  'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/WechatIMG7.jpg'

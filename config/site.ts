@@ -1,14 +1,15 @@
 import { SiteConfig } from '@/types/siteConfig'
 
+export const siteName = '即刻导出'
+
 const baseSiteConfig = {
-  name: '即刻导出 - 导出即刻动态和收藏为本地文件',
-  description:
-    '即刻导出 - 导出自己和即友的动态和个人收藏为本地文件，支持 Markdown、纯文本、excel、csv 格式的文件，无缝导入 Obsidian、Heptabase 等笔记工具',
+  name: `${siteName} - 导出即刻动态和收藏为本地文件`,
+  description: `${siteName} - 导出自己和即友的动态和个人收藏为本地文件，支持 Markdown、纯文本、excel、csv 格式的文件，无缝导入 Obsidian、Heptabase 等笔记工具`,
   url: 'https://jike-export.wujieli.com',
   ogImage: 'https://jike-export.wujieli.com/og.png',
   metadataBase: new URL('https://jike-export.wujieli.com'),
   keywords: [
-    '即刻导出',
+    siteName,
     '即刻动态导出',
     '即刻收藏导出',
     '即刻数据备份',
