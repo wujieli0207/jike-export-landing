@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar'
 import { siteConfig } from '@/config/site'
 import { Analytics } from '@vercel/analytics/react'
 import GoogleAnalytics from './GoogleAnalytics'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: siteConfig.name,
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Footer />
 
         {process.env.NODE_ENV === 'development' ? (
           <></>
