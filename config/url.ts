@@ -2,7 +2,7 @@ export const GOOGLE_STORE_URL =
   'https://chromewebstore.google.com/detail/%E5%8D%B3%E5%88%BB%E5%AF%BC%E5%87%BA/bknkpflbkcapjdbcbdoijnjdbkdabjli'
 
 export const LOCAL_DOWNLOAD_URL =
-  'https://jike-export.wujieli.com/public/jike-export-extension.crx'
+  'https://jike-export.wujieli.com/jike-export-extension.crx'
 
 export const LEMONSQUEEZY_PAY_URL =
   'https://jike-export.lemonsqueezy.com/buy/702040dd-c006-464e-9cf3-2e200380d228'
