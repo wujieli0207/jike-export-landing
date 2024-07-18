@@ -11,8 +11,8 @@ import Link from 'next/link'
 const Footer = () => {
   const footerNavs = [
     {
-      href: 'https://handdrawn.ai/',
-      name: 'Hand Drawn AI',
+      href: 'https://awesomelandingpage.com/',
+      name: 'Awesome Landing Page',
     },
   ]
   return (
