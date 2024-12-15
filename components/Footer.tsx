@@ -14,6 +14,10 @@ const Footer = () => {
       href: 'https://www.urltoany.com/',
       name: 'URL to Any',
     },
+    {
+      href: 'https://www.vercelpopular.com/',
+      name: 'Vercel Popular',
+    },
   ]
   return (
     <footer className="pt-10">
