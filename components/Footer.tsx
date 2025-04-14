@@ -19,8 +19,8 @@ const Footer = () => {
       name: 'Vercel Popular',
     },
     {
-      href: 'https://www.ai-question-answer.com',
-      name: 'AI Question Answer',
+      href: 'https://www.senkaai.com?ref=jike-export',
+      name: 'Senka AI',
     },
   ]
 
