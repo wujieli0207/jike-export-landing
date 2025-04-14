@@ -19,7 +19,7 @@ const Footer = () => {
       name: 'Vercel Popular',
     },
     {
-      href: 'https://www.senkaai.com?ref=jike-export',
+      href: 'https://www.senkaai.com/?ref=jike-export',
       name: 'Senka AI',
     },
   ]
