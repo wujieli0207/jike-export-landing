@@ -22,6 +22,10 @@ const Footer = () => {
       href: 'https://www.senkaai.com/?ref=jike-export',
       name: 'Senka AI',
     },
+    {
+      href: 'https://www.urltomp3.com/',
+      name: 'URL to MP3',
+    },
   ]
 
   return (
