@@ -13,6 +13,12 @@ const Navbar = () => (
 
       <div>
         <NavLink
+          href="/cli"
+          className="font-medium text-sm text-black  hover:bg-gray-100"
+        >
+          使用 cli
+        </NavLink>
+        <NavLink
           href="/payment"
           className="font-medium text-sm text-black  hover:bg-gray-100"
         >

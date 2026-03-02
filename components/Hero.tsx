@@ -26,8 +26,15 @@ const Hero = () => {
               <p className="leading-normal text-lg mb-4 text-center xl:text-left slide-in-bottom-subtitle">
                 3. 导出图片、动态链接、引用动态等完整信息
               </p>
-              <p className="leading-normal text-lg mb-8 text-center xl:text-left slide-in-bottom-subtitle">
+              <p className="leading-normal text-lg mb-4 text-center xl:text-left slide-in-bottom-subtitle">
                 4. 无缝导入 Obsidian、Heptabase 等笔记工具
+              </p>
+              <p className="leading-normal text-lg mb-8 text-center xl:text-left slide-in-bottom-subtitle">
+                5. 支持{' '}
+                <a href="/cli" className="text-blue-500 hover:text-blue-700 underline">
+                  CLI 命令行
+                </a>
+                ，一行命令完成导出
               </p>
             </section>
 
